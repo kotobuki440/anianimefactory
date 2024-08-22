@@ -116,7 +116,7 @@ SSResult Skip Results Iframe
 EDIT ON
 /* チェックリストを非表示 */
 #popup-close{
-    
+    display: none;
   }
 
 /* popup-closeチェックが押されたときに.popupに追記*/
@@ -134,7 +134,7 @@ EDIT ON
 }
 .popup-content{
     height: 90%;
-    margin: 5px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
