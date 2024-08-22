@@ -150,19 +150,3 @@ EDIT ON
 }
 
 
-.container {
-  background-color: #dddddd;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: 1000px;
-  
-}
-
-.ad-bottom {
-  border: solid 3px #000;
-  position: sticky;
-  position: -webkit-sticky;
-  bottom: 1rem;
-  align-self: flex-end;
-}
