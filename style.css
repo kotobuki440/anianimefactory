@@ -116,7 +116,7 @@ SSResult Skip Results Iframe
 EDIT ON
 /* チェックリストを非表示 */
 #popup-close{
-    display: none;
+    
   }
 
 /* popup-closeチェックが押されたときに.popupに追記*/
