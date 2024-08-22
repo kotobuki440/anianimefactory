@@ -150,4 +150,33 @@ EDIT ON
 }
 
 
+.container {
+  background-color: #dddddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 1000px;
+  
+}
+
+.ad-top {
+  border: solid 3px #000;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  opacity: 0;
+  animation: fadein 3s 6s forwards; /* 6秒後に1秒かけてアニメーション */
+}
+
+@keyframes fadein{
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
 
