@@ -159,24 +159,10 @@ EDIT ON
   
 }
 
-.ad-top {
+.ad-bottom {
   border: solid 3px #000;
   position: sticky;
   position: -webkit-sticky;
-  top: 0;
-  opacity: 0;
-  animation: fadein 3s 6s forwards; /* 6秒後に1秒かけてアニメーション */
+  bottom: 1rem;
+  align-self: flex-end;
 }
-
-@keyframes fadein{
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-    }
-    
-}
-
-
