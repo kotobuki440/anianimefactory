@@ -43,6 +43,7 @@ main {
     padding: 1rem;
     width: calc(33.333% - 2rem);
     box-sizing: border-box;
+    text-align: center;
 }
 
 .video-item img {
@@ -112,7 +113,7 @@ body {
 
 /* ポップアップのスタイル */
 .popup-checkbox {
-    display: none;
+    display: 20px;
 }
 
 .popup-overlay {
