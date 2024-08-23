@@ -20,14 +20,21 @@
         </nav>
     </header>
 
-    <label for="popup-toggle" class="popup-open">ポップアップを表示</label>
-<input type="checkbox" id="popup-toggle" class="popup-checkbox">
-<div class="popup-overlay">
-    <div class="popup-content">
-        <label for="popup-toggle" class="popup-close">×</label>
-        <p><IFRAME SRC="https://www.ppc-direct.com/index35.html?affid=236376" width="320" height="950" frameborder="no" scrolling="no" title="バナー"></IFRAME></p>
+     <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <p><IFRAME SRC="https://www.ppc-direct.com/index22.html?affid=236376" width="728" height="90" frameborder="no" scrolling="no" title="バナー"></IFRAME></p>
+        </div>
     </div>
-</div>
+    <script>
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        window.onload = function() {
+            document.getElementById('popup').style.display = 'flex';
+        }
+    </script>
 
 
     <iframe src="https://www.pornhub.com/embed/ph61d022a35f967" frameborder="0" width="400" height="315" scrolling="no" allowfullscreen></iframe>
