@@ -20,14 +20,21 @@
     </header>
 
 
-<label for="popup-toggle" class="popup-open">ポップアップを表示</label>
-<input type="checkbox" id="popup-toggle" class="popup-checkbox">
-<div class="popup-overlay">
-    <div class="popup-content">
-        <label for="popup-toggle" class="popup-close">×</label>
-        <p><IFRAME SRC="https://www.ppc-direct.com/index8.html?affid=236376" width="700" height="200" frameborder="no" scrolling="no" title="バナー"></IFRAME></p>
+  <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <p><IFRAME SRC="https://www.ppc-direct.com/index12.html?affid=236376" width="870" height="1880" frameborder="no" scrolling="no" title="ページ"></IFRAME></p>
+        </div>
     </div>
-</div>
+    <script>
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        window.onload = function() {
+            document.getElementById('popup').style.display = 'flex';
+        }
+    </script>
 
 
 
