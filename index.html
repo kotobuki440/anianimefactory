@@ -22,14 +22,15 @@
         </nav>
     </header>
 
- <div id="popup" class="popup-overlay">
-        <div class="popup-content">
+  <div id="popup" class="popup-overlay" onclick="closePopup(event)">
+        <div class="popup-content" onclick="event.stopPropagation()">
             <span class="popup-close" onclick="closePopup()">&times;</span>
-            <p><IFRAME SRC="https://www.ppc-direct.com/index22.html?affid=236376" width="728" height="90" frameborder="no" scrolling="no" title="バナー"></IFRAME></p>
+            <p><IFRAME SRC="https://www.ppc-direct.com/index21.html?affid=236376" width="300" height="100" frameborder="no" scrolling="no" title="バナー"></IFRAME></p>
         </div>
     </div>
     <script>
-        function closePopup() {
+        function closePopup(event) {
+            if (event) event.stopPropagation();
             document.getElementById('popup').style.display = 'none';
         }
 
