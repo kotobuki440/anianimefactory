@@ -112,10 +112,6 @@ body {
 }
 
 /* ポップアップのスタイル */
-.popup-checkbox {
-    display: 20px;
-}
-
 .popup-overlay {
     display: none;
     position: fixed;
@@ -136,16 +132,7 @@ body {
     max-width: 500px;
     width: 90%;
     text-align: center;
-}
-
-.popup-open {
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    display: inline-block;
+    position: relative;
 }
 
 .popup-close {
@@ -156,11 +143,6 @@ body {
     font-size: 24px;
     color: #333;
 }
-
-.popup-checkbox:checked + .popup-overlay {
-    display: flex;
-}
-
 
 
 
